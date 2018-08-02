@@ -48,7 +48,7 @@ Menus.prototype = {
             const $elem = menu.$elem
             if ($elem) {
                 // 设置 z-index
-                $elem.css('z-index', zIndex)
+                // $elem.css('z-index', zIndex) // zwp-去掉menu的zindex
                 $toolbarElem.append($elem)
             }
         })

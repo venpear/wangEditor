@@ -100,6 +100,7 @@ DropList.prototype = {
             const width = this.opt.width || 100  // 默认为 100
             $container.css('margin-top', menuHeight + 'px')
                     .css('width', width + 'px')
+                    .css('z-index', menu.editor.config.zIndex + 1) //zwp-添加zindex
 
             // 加入到 DOM
             $menuELem.append($container)
