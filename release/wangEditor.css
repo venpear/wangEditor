@@ -189,10 +189,10 @@
   color: #333;
 }
 .w-e-toolbar .w-e-active i {
-  color: #1e88e5;
+  color: #6971F4;
 }
 .w-e-toolbar .w-e-active:hover i {
-  color: #1e88e5;
+  color: #6971F4;
 }
 
 .w-e-text-container .w-e-panel-container {
@@ -258,7 +258,7 @@
   padding: 5px;
 }
 .w-e-text-container .w-e-panel-container .w-e-panel-tab-content textarea:focus {
-  border-color: #1e88e5;
+  border-color: #6971F4;
 }
 .w-e-text-container .w-e-panel-container .w-e-panel-tab-content input[type=text] {
   border: none;
@@ -278,11 +278,11 @@
   margin: 10px 0;
 }
 .w-e-text-container .w-e-panel-container .w-e-panel-tab-content input[type=text]:focus {
-  border-bottom: 2px solid #1e88e5;
+  border-bottom: 2px solid #6971F4;
 }
 .w-e-text-container .w-e-panel-container .w-e-panel-tab-content .w-e-button-container button {
   font-size: 14px;
-  color: #1e88e5;
+  color: #6971F4;
   border: none;
   padding: 5px 10px;
   background-color: #fff;
@@ -340,7 +340,7 @@
 }
 .w-e-text-container .w-e-progress {
   position: absolute;
-  background-color: #1e88e5;
+  background-color: #6971F4;
   bottom: 0;
   left: 0;
   height: 1px;

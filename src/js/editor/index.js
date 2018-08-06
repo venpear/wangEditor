@@ -80,7 +80,7 @@ Editor.prototype = {
             $toolbarSelector.append($toolbarElem).append($textContainerElem)
 
             // 自行创建的，需要配置默认的样式
-            $toolbarElem.css('background-color', '#f1f1f1')
+            $toolbarElem.css('background-color', 'transparent')
                             .css('border', '1px solid #ccc')
             $textContainerElem.css('border', '1px solid #ccc')
                             .css('border-top', 'none')
