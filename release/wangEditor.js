@@ -1470,7 +1470,7 @@ Link.prototype = {
             checkResult = linkCheck(text, link);
         }
         if (checkResult === true) {
-            editor.cmd.do('insertHTML', '<a href="' + link + '" target="_blank">' + text + '</a>');
+            editor.cmd.do('insertHTML', '<a href="' + link + '" rel="noopener noreferrer" target="_blank">' + text + '</a>');
         } else {
             alert(checkResult);
         }
